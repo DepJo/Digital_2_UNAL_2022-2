@@ -1,0 +1,42 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+| Date         : Wed Nov 23 09:14:26 2022
+| Host         : delwinpadilla-pc running 64-bit Ubuntu 22.04.1 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_place.rpt
+| Design       : top
+| Device       : 7a100tcsg324-1
+| Design State : Fully Placed
+-----------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+|          Instance          |      Module      | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+| top                        |            (top) |       3351 |       3335 |      16 |    0 | 2740 |     18 |      8 |            4 |
+|   (top)                    |            (top) |        649 |        633 |      16 |    0 | 1297 |     17 |      0 |            0 |
+|   VexRiscv                 |         VexRiscv |       2340 |       2340 |       0 |    0 | 1251 |      1 |      8 |            4 |
+|     (VexRiscv)             |         VexRiscv |        871 |        871 |       0 |    0 | 1080 |      0 |      2 |            4 |
+|     IBusCachedPlugin_cache | InstructionCache |        945 |        945 |       0 |    0 |  106 |      1 |      1 |            0 |
+|     dataCache_1            |        DataCache |        524 |        524 |       0 |    0 |   65 |      0 |      5 |            0 |
+|   parlante                 |         parlante |         12 |         12 |       0 |    0 |   30 |      0 |      0 |            0 |
+|   servomotor               |       servomotor |         32 |         32 |       0 |    0 |   22 |      0 |      0 |            0 |
+|   servomotor_1             |     servomotor_0 |         32 |         32 |       0 |    0 |   22 |      0 |      0 |            0 |
+|   ultrasonido              |      ultrasonido |        144 |        144 |       0 |    0 |   59 |      0 |      0 |            0 |
+|     (ultrasonido)          |      ultrasonido |        136 |        136 |       0 |    0 |   29 |      0 |      0 |            0 |
+|     freq1                  |        divFreq_2 |          8 |          8 |       0 |    0 |   30 |      0 |      0 |            0 |
+|   ultrasonido_1            |    ultrasonido_1 |        144 |        144 |       0 |    0 |   59 |      0 |      0 |            0 |
+|     (ultrasonido_1)        |    ultrasonido_1 |        136 |        136 |       0 |    0 |   29 |      0 |      0 |            0 |
+|     freq1                  |          divFreq |          8 |          8 |       0 |    0 |   30 |      0 |      0 |            0 |
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+
