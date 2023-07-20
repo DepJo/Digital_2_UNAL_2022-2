@@ -1,9 +1,4 @@
 # Proyecto: SISTEMA DE GUÍA PARA PERSONA CON VISIÓN REDUCIDA
-
-### Presentado por:
-- Delwin José Padilla Padilla
-- Juan Camilo Reyes Diazgranados
-- Angie Natalia Torres Segura 
 	
 ## Resumen
 
